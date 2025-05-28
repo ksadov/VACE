@@ -18,3 +18,8 @@ vace.egg-info
 *resources
 *.ipynb_checkpoints*
 *.vscode
+
+*.mp4
+notes.txt
+venv
+models/*
