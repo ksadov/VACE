@@ -153,13 +153,13 @@ def main():
         help="Frames per second for output video (default: 24)",
     )
     parser.add_argument(
-        "--width", type=int, default=832, help="Video width in pixels (default: 1920)"
+        "--width", type=int, default=832, help="Video width in pixels (default: 832)"
     )
     parser.add_argument(
         "--height",
         type=int,
         default=480,
-        help="Video height in pixels (default: 1080)",
+        help="Video height in pixels (default: 480)",
     )
 
     args = parser.parse_args()
